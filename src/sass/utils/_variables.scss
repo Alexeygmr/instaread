@@ -1,0 +1,42 @@
+//
+// Variables
+// --------------------------------------------------
+@font-face {
+  font-family: "SFProDisplay-Bold";
+  src: url('../../fonts/FontsFree-Net-SFProDisplay-Bold.ttf') format('ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFProDisplay-Medium";
+  src: url('../../fonts/FontsFree-Net-SFProDisplay-Medium.ttf') format('ttf');
+  font-style: normal;
+}
+@font-face {
+  font-family: "SFProDisplay-Regular";
+  src: url('../../fonts/FontsFree-Net-SFProDisplay-Regular.ttf') format('ttf');
+  font-style: normal;
+}
+//
+// fonts
+
+$primaryFontLight: "SFProDisplay-Medium", sans-serif;
+$primaryFontMedium: "SFProDisplay-Regular", sans-serif;
+$primaryFontBold: "SFProDisplay-Medium", sans-serif;
+
+//
+// colors
+
+$black: #272829;
+$white: #fff;
+$heroBackgroundColor: #f7f7f7;
+$navLinkColor: #8f95a3;
+$navLinkActiveColor: #009aeb;
+$mainGray:#8f95a3;
+//
+// z-index
+$overlayZ: 2000;
+$popupZ: 3000;
+$closeZ: 1100;
+$profZ: 1200;
+$prodZ: 1100;
+$nameZ: 1201;
